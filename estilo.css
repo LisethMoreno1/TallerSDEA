@@ -5,67 +5,157 @@ body{
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
-  margin: 0 auto;  
+  margin: 0 auto ;  
+  padding: 0;
   text-decoration: none;
 
+}
+
+
+a{
+  margin-top: 20px;
+  color:#ffff;
+  text-decoration: none;
+  justify-items: center;
+  justify-content: center;
+
+}
+
+h3,h2{
+    color:  rgb(247, 202, 90);
+  text-decoration: none;
+  justify-items: center;
+  justify-content: center;
 }
 
 .container{
   width: 100%;
   height: 100%;
   text-decoration: none;
- 
+
 }
+
+
+
 
 .MenuPrincipal{
 width: 100%;
 height: 60%; 
 display: flex;
 justify-content: space-evenly;
-background-color: rgb(204, 46, 46);
-padding: 20px;
+background-color: #126bf0;
+/* padding: 5px; */
 text-decoration: none;
 text-align: center; 
+color: #fff;
 
 
 }
 
-.Segundario{
-  /* width: 100%;
-  height: 100px;
-    background-color: aqua; */
+
+#content{
+  margin: 10px;
+  text-align: center;
+}
+p{
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+figure{
+  background-image: url(Imagenes/carrito3.jpg);
+  min-height: 100px;
+  width:100%;/**/
+  min-width: 600px;
+  background-position: 50%;/**/
+  background-size: cover;
+  margin:0px;/**/
+  text-align: center;/**/
+  line-height: 200px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+ /* .Segundario{
+ border-top: 2em solid #ccc;
+  border-right: 3.4641em solid transparent;
+  border-left: 3.4641em solid transparent;
+   width: 90%;
+  height: 100%;
+
+
+} */
+
+.boton-segundario{
+    width: 100px;
+    height: 40px;
+   
+    color:#fff;
+    background-color: rgb(247, 202, 90);
+    border:0;
+    border-radius: 30px;
+    justify-content:center;
+    align-items: center;
 
 }
 
-/* menu{
-   width: 100%;
-  height: 300%;
-  display: flex;
 
-
-
-}
-   */
 
 
 
   .Servicios{
     width: 100%;
     height: 350%;
-    background-color: blue;
+    background-color: #126bf0;
     grid-gap: 5px;
     display: flex;
     justify-content: space-evenly;
-    /* overflow-x:auto; */
-  
-
 
   }
 
+  .muestra{
+      width: 100%;
+      height: 300%;
+     display: flex;
+  }
+  
+.title {
+    font-weight: 100%;
+    background: whitesmoke;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+
+}
+
+/* .links {
+    font-weight: 100%;
+    font-size: 1.125rem;
+    background: whitesmoke;
+;
+} */
+
+.card-modelo {
+    width: 20%;
+    height: 100%;
+    margin: 20px;
+    background: whitesmoke;
+
+}
+
+.card-img-top{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  display: block;
+  flex-direction: column;
+     display: flex;
+}
+
 
 .card{
-   width: 100%;
-   height: 350%;
+    width: 100%;
+    height: 350%;
     display:flex;
     background-color: #fff;
     align-items: center;
@@ -73,7 +163,7 @@ text-align: center;
     justify-content: space-evenly;
     text-overflow: ellipsis;
     display: inline-block;
- 
+
 }
 
 
@@ -82,9 +172,9 @@ text-align: center;
     height: 7cm;
     display:grid;
     grid-template-columns: repeat(2, auto);
-    background-color: #ea4c89;
+    background-color: #126bf0;
     text-align: center;
-   
+
 
 }
 
@@ -132,7 +222,7 @@ text-align: center;
 .site-footer
 {
 
-  background-color:#26272b;
+  background-color:  rgb(247, 202, 90);
   padding:75px 0 80px;
   font-size:15px;
   line-height:24px;
@@ -200,12 +290,3 @@ text-align: center;
 {
   background-color:#ea4c89
 }
-/* @media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
-} */
